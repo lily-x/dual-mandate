@@ -3,11 +3,16 @@
 This code implements and evaluates algorithms for "Dual-Mandate Patrols: Multi-Armed Bandits for Green Security," including the LIZARD algorithm provided in the paper.
 
 > @inproceedings{xu2020dual,
-  title={Dual-Mandate Patrols: Multi-Armed Bandits for Green Security},
-  author={Xu, Lily and Bondi, Elizabeth and Fang, Fei and Perrault, Andrew and Wang, Kai and Tambe, Milind},
-  booktitle={arXiv},
-  year={2020}
-}
+>
+> title={Dual-Mandate Patrols: Multi-Armed Bandits for Green Security},
+>
+> author={Xu, Lily and Bondi, Elizabeth and Fang, Fei and Perrault, Andrew and Wang, Kai and Tambe, Milind},
+>
+> booktitle={arXiv},
+>
+> year={2020}
+>
+> }
 
 ## Files
 
