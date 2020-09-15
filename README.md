@@ -1,33 +1,33 @@
 # Dual-mandate patrols
 
-This code implements and evaluates algorithms for "Dual-Mandate Patrols: Multi-Armed Bandits for Green Security," including the LIZARD algorithm provided in the paper.
+This code implements and evaluates algorithms for "[Dual-Mandate Patrols: Multi-Armed Bandits for Green Security](https://arxiv.org/abs/2009.06560)," including the LIZARD algorithm provided in the paper.
 
 ```
 @inproceedings{xu2020dual,
   title={Dual-Mandate Patrols: Multi-Armed Bandits for Green Security},
   author={Xu, Lily and Bondi, Elizabeth and Fang, Fei and Perrault, Andrew and Wang, Kai and Tambe, Milind},
-  booktitle={arXiv},
+  booktitle={arXiv:2009.06560},
   year={2020}
 }
 ```
 
 ## Files
 
-`baseline` executes code and makes graphs (Figure 5 of paper)
+`baseline.py` executes code and makes graphs (Figure 5 of paper)
 
-`decomposed_zooming` is the LIZARD we propose, integrating Lipschitz-continuity and decomposition
+`decomposed_zooming.py` is the LIZARD we propose, integrating Lipschitz-continuity and decomposition
 
-`discrete_Lipschitz` is a discrete version of zooming algorithm for Lipschitz bandits
+`discrete_lipschitz.py` is a discrete version of zooming algorithm for Lipschitz bandits
 
-`MINION` implements MINION algorithm from Gholami et al. [AAMAS 2019]
+`MINION.py` implements MINION algorithm from Gholami et al. [AAMAS 2019]
 
-`adversary` specifies the behavior of the adversary
+`adversary.py` specifies the behavior of the adversary
 
-`historical_data_plot` produces plot of why relying on historical data is unreliable in early rounds (Figure 2 of paper)
+`historical_data_plot.py` produces plot of why relying on historical data is unreliable in early rounds (Figure 2 of paper)
 
 
 ## Data
-We provide code to generate synthetic data. We cannot provide real-world data used in the paper due to the sensitive nature of poaching data.
+We provide code to generate synthetic data with the function `get_historical()` in `baseline.py`. We cannot provide real-world data used in the paper due to the sensitive nature of poaching data.
 
 
 ## Execution
