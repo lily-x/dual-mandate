@@ -1,13 +1,13 @@
 # Dual-mandate patrols
 
-This code implements and evaluates algorithms for "[Dual-Mandate Patrols: Multi-Armed Bandits for Green Security](https://arxiv.org/abs/2009.06560)," including the LIZARD algorithm provided in the paper.
+This code implements and evaluates algorithms for "[Dual-Mandate Patrols: Multi-Armed Bandits for Green Security](https://arxiv.org/abs/2009.06560)" from AAAI-21, including the LIZARD algorithm provided in the paper.
 
 ```
-@inproceedings{xu2020dual,
+@inproceedings{xu2021dual,
   title={Dual-Mandate Patrols: Multi-Armed Bandits for Green Security},
   author={Xu, Lily and Bondi, Elizabeth and Fang, Fei and Perrault, Andrew and Wang, Kai and Tambe, Milind},
-  booktitle={arXiv:2009.06560},
-  year={2020}
+  booktitle={Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI-21)},
+  year={2021}
 }
 ```
 
@@ -15,7 +15,7 @@ This code implements and evaluates algorithms for "[Dual-Mandate Patrols: Multi-
 
 `baseline.py` executes code and makes graphs (Figure 5 of paper)
 
-`decomposed_zooming.py` is the LIZARD we propose, integrating Lipschitz-continuity and decomposition
+`decomposed_zooming.py` is the LIZARD algorithm we propose, integrating Lipschitz-continuity and decomposition
 
 `discrete_lipschitz.py` is a discrete version of zooming algorithm for Lipschitz bandits
 
