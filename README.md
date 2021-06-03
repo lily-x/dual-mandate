@@ -11,6 +11,9 @@ This code implements and evaluates algorithms for "[Dual-Mandate Patrols: Multi-
 }
 ```
 
+This project is licensed under the terms of the MIT license.
+
+
 ## Files
 
 `baseline.py` executes code and makes graphs (Figure 5 of paper)
